@@ -1,0 +1,33 @@
+.container {
+    padding-bottom: 8px;
+}
+.input {
+    border: 1px solid #DFE3E6;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding: 8px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #BEC5CC;
+}
+
+.input.error {
+    border-color: #EA0029;
+}
+
+.input.disable {
+    border-color: #808080;
+    color: #808080;
+}
+
+.textError {
+    margin-top: 4px;
+    color: #EA0029;
+}

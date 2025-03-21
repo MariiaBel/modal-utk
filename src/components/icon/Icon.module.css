@@ -1,0 +1,13 @@
+.icon {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (min-width: 768px) {
+    .icon {
+        width: 18px;
+        height: 18px;
+    }
+}
